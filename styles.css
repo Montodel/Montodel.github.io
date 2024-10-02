@@ -195,24 +195,37 @@ footer {
     font-size: 1.2em;
 }
 
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    width: 80%;
-    margin: 0 auto;
+.slideshow-container {
+    position: relative;
+    max-width: 100%; /* The container takes up full width of the page */
+    height: auto; /* Height will automatically adjust based on the image */
+    margin: auto;
+    overflow: hidden; /* Hides overflow of images that are not visible */
+    background-color: #f7f7f7; /* Optional background color for slideshow container */
 }
 
-.gallery-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+.slides {
+    display: none; /* Hide all slides initially */
+    width: 100%; /* Make each slide take the full width of the container */
+    text-align: center; /* Center the images horizontally */
 }
 
-.gallery-grid img:hover {
-    transform: scale(1.05);
+.logo-image {
+    max-width: 100%; /* Adjust width to 100% of the container */
+    height: auto; /* Ensure aspect ratio is maintained */
+    object-fit: contain; /* Ensure the image fits within the container without distortion */
+    max-height: 400px; /* Set a maximum height (you can adjust this value) */
 }
+
+.fade {
+    animation: fadeEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0.4;} 
+    to {opacity: 1;}
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
