@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	
+
 </head>
 
 <body>
@@ -21,34 +23,50 @@
             </div>
         </div>
     </header>
+	
+<div class="background-overlay"></div>
+<div class="accent-circle large"></div>
+<div class="accent-circle small"></div>
 
-    <nav class="navbar">
-        <div class="container">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#offer">What I Offer</a></li>
-                <li><a href="#whyme">Why Me?</a></li>
-                <li><a href="#essence">Essence of My Services</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+<nav class="navbar magic-navbar">
+    <div class="container">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#offer">What I Offer</a></li>
+            <li><a href="#whyme">Why Me?</a></li>
+            <li><a href="#essence">Essence of My Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hover-line"></div>
+    </div>
+</nav>
+
+
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I am a dynamic technology professional with a passion for solving complex technical problems and creating innovative solutions. 
+                    With a background in Software Engineering, Data Analysis, and IT Support, I thrive in environments that require both analytical and creative thinking.
+                </p>
+                <a href="#contact" class="btn primary-btn">Get in Touch</a>
+            </div>
+            <div class="about-image">
+                <img src="images/profile-photo.jpg" alt="Profile Photo" />
+            </div>
         </div>
-    </nav>
+    </div>
+</section>
 
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I am a dynamic technology professional with a passion for solving complex technical problems and creating innovative solutions. 
-                With a background in Software Engineering, Data Analysis, and IT Support, I thrive in environments that require both analytical and creative thinking.
-            </p>
-        </div>
-    </section>
 
-    <section id="offer" class="offer-section">
-        <div class="container">
-            <h2>What I Offer</h2>
+<section id="offer" class="offer-section">
+    <div class="container">
+        <h2>What I Offer</h2>
+        <div class="services-wrapper">
             <div class="service graphic-design">
                 <div class="service-icon">
                     <i class="fas fa-paint-brush"></i>
@@ -95,90 +113,173 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="whyme" class="whyme-section">
-        <div class="container">
-            <h2>Why Me?</h2>
-            <ul>
-                <li><strong>Versatility:</strong> My skillset spans multiple disciplines.</li>
-                <li><strong>Reliability:</strong> I’m dedicated to delivering high-quality solutions on time.</li>
-                <li><strong>Ingenuity:</strong> I approach challenges with innovative thinking and creative solutions.</li>
-                <li><strong>Collaboration:</strong> I work closely with clients to ensure their vision comes to life.</li>
-                <li><strong>Continuous Learning:</strong> I stay up-to-date with the latest technologies and trends.</li>
-            </ul>
-        </div>
-    </section>
 
-    <section id="essence" class="essence-section">
-        <div class="container">
-            <h2>The Essence of My Services</h2>
-            <p>
-                My services are designed with a singular goal: to help you achieve success through innovation and technical excellence. 
-                I believe in creating solutions that not only address immediate needs but also set the foundation for future growth, ensuring aesthetics and functionality coexist beautifully.
-            </p>
+<section id="whyme" class="whyme-section">
+    <div class="container">
+        <h2>Why Me?</h2>
+        <div class="whyme-content">
+            <div class="whyme-card">
+                <div class="icon"><i class="fas fa-cogs"></i></div>
+                <h3>Versatility</h3>
+                <p>My skillset spans multiple disciplines, enabling me to handle diverse projects efficiently.</p>
+            </div>
+            <div class="whyme-card">
+                <div class="icon"><i class="fas fa-clock"></i></div>
+                <h3>Reliability</h3>
+                <p>I’m dedicated to delivering high-quality solutions on time, every time.</p>
+            </div>
+            <div class="whyme-card">
+                <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>Ingenuity</h3>
+                <p>I approach challenges with innovative thinking and creative solutions that set projects apart.</p>
+            </div>
+            <div class="whyme-card">
+                <div class="icon"><i class="fas fa-users"></i></div>
+                <h3>Collaboration</h3>
+                <p>I work closely with clients to ensure their vision comes to life seamlessly and effectively.</p>
+            </div>
+            <div class="whyme-card">
+                <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>Continuous Learning</h3>
+                <p>I stay up-to-date with the latest technologies and trends to provide the best solutions possible.</p>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
+<section id="essence" class="essence-section">
+    <div class="container">
+        <h2>The Essence of My Services</h2>
+        <p class="essence-intro">
+            I strive to combine innovation, technical mastery, and aesthetic elegance to provide solutions that are both effective and future-ready.
+        </p>
+        <div class="essence-cards-wrapper">
+            <div class="essence-card">
+                <div class="card-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Innovative Solutions</h3>
+                    <p>Crafting tailored, forward-thinking solutions that set you apart.</p>
+                </div>
+            </div>
+            <div class="essence-card">
+                <div class="card-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Technical Mastery</h3>
+                    <p>Utilizing the latest technologies to ensure reliable and scalable results.</p>
+                </div>
+            </div>
+            <div class="essence-card">
+                <div class="card-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Elegant Aesthetics</h3>
+                    <p>Designs that are visually striking while maintaining usability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 	
 <section id="faq" class="faq-section">
     <div class="container">
         <h2>Frequently Asked Questions</h2>
         <div class="faq-item">
-            <h3>What services do you offer?</h3>
-            <p>I offer a range of services including Graphic Design, Data Analysis, Software Development, IT Support, and Virtual Assistance tailored to meet your needs.</p>
+            <button class="faq-question">
+                <span class="faq-icon">+</span>
+                <h3>What services do you offer?</h3>
+            </button>
+            <div class="faq-answer">
+                <p>I offer a range of services including Graphic Design, Data Analysis, Software Development, IT Support, and Virtual Assistance tailored to meet your needs.</p>
+            </div>
         </div>
         <div class="faq-item">
-            <h3>How do you approach a new project?</h3>
-            <p>I begin by understanding your requirements and goals, followed by research and planning. I ensure clear communication throughout the process to keep you updated.</p>
+            <button class="faq-question">
+                <span class="faq-icon">+</span>
+                <h3>How do you approach a new project?</h3>
+            </button>
+            <div class="faq-answer">
+                <p>I begin by understanding your requirements and goals, followed by research and planning. I ensure clear communication throughout the process to keep you updated.</p>
+            </div>
         </div>
         <div class="faq-item">
-            <h3>What tools do you use for design and analysis?</h3>
-            <p>I utilize industry-standard tools such as Adobe Photoshop and Illustrator for design, and Python, Excel, and Tableau for data analysis.</p>
+            <button class="faq-question">
+                <span class="faq-icon">+</span>
+                <h3>What tools do you use for design and analysis?</h3>
+            </button>
+            <div class="faq-answer">
+                <p>I utilize industry-standard tools such as Adobe Photoshop and Illustrator for design, and Python, Excel, and Tableau for data analysis.</p>
+            </div>
         </div>
         <div class="faq-item">
-            <h3>How do you ensure the quality of your work?</h3>
-            <p>I follow best practices and guidelines, conduct thorough testing and reviews, and seek feedback to ensure high-quality outcomes for all projects.</p>
+            <button class="faq-question">
+                <span class="faq-icon">+</span>
+                <h3>How do you ensure the quality of your work?</h3>
+            </button>
+            <div class="faq-answer">
+                <p>I follow best practices and guidelines, conduct thorough testing and reviews, and seek feedback to ensure high-quality outcomes for all projects.</p>
+            </div>
         </div>
         <div class="faq-item">
-            <h3>What is your turnaround time for projects?</h3>
-            <p>Turnaround time varies based on the project scope. I provide estimated timelines during the initial consultation and keep you updated throughout the project.</p>
+            <button class="faq-question">
+                <span class="faq-icon">+</span>
+                <h3>What is your turnaround time for projects?</h3>
+            </button>
+            <div class="faq-answer">
+                <p>Turnaround time varies based on the project scope. I provide estimated timelines during the initial consultation and keep you updated throughout the project.</p>
+            </div>
         </div>
-    </div>
-</section
-
-<!-- Graphic Design Portfolio Section -->
-<section id="graphic-design" class="graphic-design-section">
-    <div class="container">
-        <h2>My Graphic Design Work</h2>
-        <p>Here are some of the logos and designs I've created as part of my graphic design services.</p>
-        <div id="slideshow" class="slideshow-container"></div>
     </div>
 </section>
 
 
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="images/real_estate.png" alt="Real Estate Management System">
-                    <div class="project-info">
-                        <h3>Real Estate Management System</h3>
-                        <p>A web-based system for managing property listings, tenant management, and rent tracking.</p>
-                        <a href="https://github.com/Montodel/Real-Estate-Management-System" class="btn secondary-btn">View Project</a>
-                    </div>
+
+ <section id="projects" class="projects-section">
+    <div class="container">
+        <h2>Featured Projects</h2>
+        
+        <!-- Graphic Design Portfolio Section -->
+        <section id="graphic-design" class="graphic-design-section">
+            <div class="container">
+                <h2>My Graphic Design Work</h2>
+                <p>Here are some of the logos and designs I've created as part of my graphic design services.</p>
+                <div id="slideshow" class="slideshow-container">
+                    <!-- Images will be added dynamically or statically for the slideshow -->
                 </div>
-                <div class="project-card">
-                    <img src="images/movies_dataset.png" alt="Movies Dataset Analysis">
-                    <div class="project-info">
-                        <h3>Movies Dataset Analysis</h3>
-                        <p>Analyzed a large movie dataset using Python to identify trends in genres, ratings, and box office performance.</p>
-                        <a href="https://github.com/Montodel/Movies-Dataset" class="btn secondary-btn">View Project</a>
-                    </div>
+            </div>
+        </section>
+
+        <!-- Project Grid for Featured Projects -->
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="images/real_estate.png" alt="Real Estate Management System">
+                <div class="project-info">
+                    <h3>Real Estate Management System</h3>
+                    <p>A web-based system for managing property listings, tenant management, and rent tracking.</p>
+                    <a href="https://github.com/Montodel/Real-Estate-Management-System" class="btn secondary-btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/movies_dataset.png" alt="Movies Dataset Analysis">
+                <div class="project-info">
+                    <h3>Movies Dataset Analysis</h3>
+                    <p>Analyzed a large movie dataset using Python to identify trends in genres, ratings, and box office performance.</p>
+                    <a href="https://github.com/Montodel/Movies-Dataset" class="btn secondary-btn">View Project</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <section id="skills" class="skills-section">
         <div class="container">
@@ -213,17 +314,20 @@
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="https://formspree.io/f/myyozkll" method="POST">
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/myyozkll" method="POST" class="contact-form">
+            <div class="form-group">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="_replyto" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn primary-btn">Send Message</button>
-            </form>
-        </div>
-    </section>
+            </div>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
 
     <footer>
         <div class="container">
@@ -236,14 +340,72 @@
 			
 			
 <script>
-    document.querySelectorAll('.faq-item h3').forEach(item => {
-        item.addEventListener('click', () => {
-            const answer = item.nextElementSibling;
-            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+
+document.addEventListener('DOMContentLoaded', () => {
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+
+        question.addEventListener('click', () => {
+            item.classList.toggle('active'); // Toggle active class to show/hide the answer
         });
     });
+});
+
+	
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.magic-navbar li a');
+    const hoverLine = document.querySelector('.hover-line');
+
+    navLinks.forEach((link, index) => {
+        link.addEventListener('mouseenter', () => {
+            hoverLine.style.width = `${link.offsetWidth}px`;
+            hoverLine.style.left = `${link.offsetLeft}px`;
+        });
+
+        link.addEventListener('mouseleave', () => {
+            hoverLine.style.width = '0';
+        });
+    });
+});
+
 	
 	
+document.addEventListener('DOMContentLoaded', () => {
+    const services = document.querySelectorAll('.service'); // Changed to target the .service class
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.2 // Trigger when 20% of the service is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible'); // Add visibility class when in view
+
+                // Staggered effect for subsequent service cards
+                let delay = 0;
+                services.forEach((service, index) => {
+                    if (!service.classList.contains('visible')) {
+                        delay += 250; // Adjusted to 250ms for staggered effect
+                        setTimeout(() => {
+                            service.classList.add('visible');
+                        }, delay);
+                    }
+                });
+            } else {
+                // Optionally reset animations when the section goes out of view
+                entry.target.classList.remove('visible');
+            }
+        });
+    }, observerOptions);
+
+    const offerSection = document.querySelector('.offer-section');
+    observer.observe(offerSection);
+});
+
 	
 // Function to generate the image gallery
 const totalLogos = 52; // Total number of logos
