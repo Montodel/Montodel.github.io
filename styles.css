@@ -916,3 +916,10 @@ footer {
         font-size: 0.9rem;
     }
 }
+
+.icon-x {
+    font-size: 1.5em; /* Adjust size as needed */
+    font-weight: bold;
+    display: inline-block;
+    color: inherit; /* Match color with other icons */
+}
