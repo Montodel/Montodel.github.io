@@ -52,7 +52,7 @@ body {
     height: 100px;
     bottom: 15%;
     right: 15%;
-}
+}[
 
 
 
@@ -63,7 +63,7 @@ body {
 }
 
 .hero {
-    background: url('Logos/image1.png') no-repeat center center/cover;
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
     color: white;
     padding: 100px 0;
     text-align: center;
